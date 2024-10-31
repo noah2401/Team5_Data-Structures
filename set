@@ -1,0 +1,15 @@
+  #basics:
+  basket = {'Apfel', 'Orange', 'Apfel', 'Birne', 'Orange', 'Banane'}
+print(basket)          #zeigt, dass die Duplikate entfernt wurden: {'Orange', 'Birne', 'Apfel', 'Banane'}
+'Orange' in basket              #schnelles Testen auf Mitgliedschaft: True
+'Cat' in basket                 #False
+basket.add('Pear')              #Fügt Pear hinzu
+basket.remove('Orange')         #Entfernt Orange -> Wirft Fehlermedung, wenn Orange nicht vorhanden ist
+basket.discard('Plum')           #Entfernt Plum -> Gibt keine Fehlermeldung, wenn Plum nicht vorhanden ist
+a = set('abracadabra')
+b = set('alacazam')
+a                               #einzelne Buchstaben in a: {'a', 'r', 'b', 'c', 'd'}
+a - b                           #Differenz: in a aber nicht in b: {'r', 'd', 'b'}
+a | b                           #Vereinigung: in a oder b: {'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}
+a & b                           #Schnittmenge: sowohl in a, als auch in b: {'a', 'c'}
+a ^ b                           #symmetrische Differenz: entweder in a oder b: {'r', 'd', 'b', 'm', 'z', 'l'}
