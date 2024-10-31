@@ -1,0 +1,47 @@
+  #basics:
+tel = {'jack': 4098, 'sape': 4139}
+tel['guido'] = 4127
+tel                            #Gibt {'sape': 4139, 'guido': 4127, 'jack': 4098} aus
+tel['jack']                    #Gibt 4098 aus
+del tel['sape']                #Löscht sape
+tel['irv'] = 4127              #Fügt 'irv': 4127 hinzu
+tel                            #Gibt {'guido': 4127, 'irv': 4127, 'jack': 4098} aus
+list(tel.keys())               #Gibt die Schlüssel unsortiert aus: ['irv', 'guido', 'jack']
+sorted(tel.keys())             #Gibt die Schlüssel sortiert aus: ['guido', 'irv', 'jack']
+'guido' in tel                 #Fragt ab, ob guido als Schlüssel vorhanden ist: True
+'jack' not in tel              #Fragt ab, ob jack nicht als Schlüssel vorhanden ist: False
+
+#Anwendungsbeispiele:
+
+#Der dict()-Konstruktor
+dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
+#Gibt {'sape': 4139, 'jack': 4098, 'guido': 4127} aus
+
+#Paare als Schlüsselwort-Argumente
+dict(sape=4139, guido=4127, jack=4098)
+#Gibt {'sape': 4139, 'jack': 4098, 'guido': 4127} aus
+
+#Benutzerdaten speichern
+benutzer = {
+    "username": "max123",
+    "email": "max@example.com",
+    "alter": 30
+}
+
+#Zählungen durchführen
+text = "das ist ein test das ist ein test"
+zaehlung = {}
+for wort in text.split():
+    zaehlung[wort] = zaehlung.get(wort, 0) + 1
+# Ergebnis: {'das': 2, 'ist': 2, 'ein': 2, 'test': 2}
+
+#Konfigurationen speichern
+konfiguration = {
+    "sprache": "Deutsch",
+    "debug": True,
+    "max_verbindungen": 10
+}
+
+#Dict Comprehension
+{x: x**2 for x in (2, 4, 6)}
+{2: 4, 4: 16, 6: 36}
