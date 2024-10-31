@@ -60,7 +60,7 @@ List:
   •	Flexibilität und einfache Handhabung
   •	Bei großen Datenmengen oder häufige Änderungen an den Anfangs- oder Mittelpositionen der Liste nimmt die Effizienz ab
 
-
+---
 tuple:
 
 
