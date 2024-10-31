@@ -4,7 +4,7 @@ List:
 
 
 1.	Merkmale
-  •	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
+•	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
   •	Ordnung:
     o	feste Reihenfolge
     o	auf Element über seinen Index zugreifen (Index beginnt bei 0)
@@ -12,7 +12,7 @@ List:
     o	identische Elemente -> ideal, wenn Sammlung von Werten, die sich wiederholen können
   •	Vielseitige Datentypen: 
     o	z. B. Zahlen, Strings, andere Listen flexibel
-2. Wann solltest du Listen verwenden?
+3. Wann solltest du Listen verwenden?
   •	Dynamische Sammlungen: 
     o	Ideal bei häufigen Änderungen (z. B. Hinzufügen, Entfernen oder Modifizieren von Elementen)
     o	eine einfache Möglichkeit, mit variablen Datenmengen zu arbeiten
@@ -21,7 +21,7 @@ List:
   •	Feste Reihenfolge
   •	Häufige Iterationen (Durchlaufen): 
     o	Häufige Iterationen einer Sammlung von Elementen (z. B. um sie anzuzeigen oder zu verarbeiten)-> aufgrund ihrer einfachen Syntax und Flexibilität besonders geeignet
-3. Besonderheiten der Modellierung
+4. Besonderheiten der Modellierung
   •	Erstellung: eckige Klammern
   •	Zugriff auf Elemente: Index
   •	Hinzufügen von Elementen: 
@@ -37,15 +37,15 @@ List:
     o	sort(), um die Elemente der Liste im selben Exemplar zu sortieren
     o	reverse(), um die Reihenfolge der Listenelemente im selben Exemplar umzukehren
   •	Slicing: [start:end] ; [start:end:step] ->start inklusive, end exklusive
-4. Anwendungsbeispiele
+5. Anwendungsbeispiele
   •	To-Do-Listen
   •	Speichern von Benutzereingaben
   •	Kollektionsverwaltung
     o	Liste von Produkten im Einkaufswagen
-5. Benutzung von Listen…
+6. Benutzung von Listen…
   •	Als Stack (Stapel):
   •	Als Queue (Schlange):
-6. List Comprehension
+7. List Comprehension
   •	Funktion
   •	Helfen, Listen auf eine elegante und effiziente Weise zu erstellen und zu transformieren
   •	Vorteile von List Comprehensions
@@ -55,7 +55,7 @@ List:
     o	Effizienz: 
       	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
     o	Einfache und übersichtliche Codes
-7. Fazit
+8. Fazit
   •	Mit Dynamischen, geordnete und veränderbare Daten arbeiten
   •	Flexibilität und einfache Handhabung
   •	Bei großen Datenmengen oder häufige Änderungen an den Anfangs- oder Mittelpositionen der Liste nimmt die Effizienz ab
