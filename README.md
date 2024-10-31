@@ -13,7 +13,7 @@
   -	Vielseitige Datentypen: 
     -	z. B. Zahlen, Strings, andere Listen flexibel
 
-**3. Wann solltest du Listen verwenden?**
+**2. Wann solltest du Listen verwenden?**
   -	Dynamische Sammlungen: 
     -	Ideal bei häufigen Änderungen (z. B. Hinzufügen, Entfernen oder Modifizieren von Elementen)
     -	eine einfache Möglichkeit, mit variablen Datenmengen zu arbeiten
@@ -23,7 +23,7 @@
   -	Häufige Iterationen (Durchlaufen): 
     -	Häufige Iterationen einer Sammlung von Elementen (z. B. um sie anzuzeigen oder zu verarbeiten)-> aufgrund ihrer einfachen Syntax und Flexibilität besonders geeignet
   
-**4. Besonderheiten der Modellierung**
+**3. Besonderheiten der Modellierung**
   -	Erstellung: eckige Klammern
   -	Zugriff auf Elemente: Index
   -	Hinzufügen von Elementen: 
@@ -40,17 +40,17 @@
     -	reverse(), um die Reihenfolge der Listenelemente im selben Exemplar umzukehren
   -	Slicing: [start:end] ; [start:end:step] ->start inklusive, end exklusive
 
-**5. Anwendungsbeispiele**
+**4. Anwendungsbeispiele**
   -	To-Do-Listen
   -	Speichern von Benutzereingaben
   -	Kollektionsverwaltung
     -	Liste von Produkten im Einkaufswagen
 
-**6. Benutzung von Listen…**
+**5. Benutzung von Listen…**
   -	Als Stack (Stapel):
   -	Als Queue (Schlange):
 
-**7. List Comprehension**
+**6. List Comprehension**
   -	Funktion
   -	Helfen, Listen auf eine elegante und effiziente Weise zu erstellen und zu transformieren
   -	Vorteile von List Comprehensions
@@ -61,7 +61,7 @@
       -	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
       -	Einfache und übersichtliche Codes
 
-**8. Fazit**
+**7. Fazit**
   -	Mit Dynamischen, geordnete und veränderbare Daten arbeiten
   -	Flexibilität und einfache Handhabung
   -	Bei großen Datenmengen oder häufige Änderungen an den Anfangs- oder Mittelpositionen der Liste nimmt die Effizienz ab
