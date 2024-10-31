@@ -92,7 +92,7 @@ Auch Tupel stellen eine geordnete Sammlung von Elementen da. Ein Tupel besteht a
 5. Fazit
   -	Unveränderlichkeit und Kombination verschiedener Datentypen -> ideal für viele Anwendungen
   -	Einfache Möglichkeit, Daten zu gruppieren und sicherzustellen, dass diese Daten nicht versehentlich verändert werden
-  -	
+  	
 ---
 set:
 
