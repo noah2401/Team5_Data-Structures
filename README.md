@@ -50,11 +50,11 @@ List:
   -	Helfen, Listen auf eine elegante und effiziente Weise zu erstellen und zu transformieren
   -	Vorteile von List Comprehensions
     -	Kompaktheit:
-      - reduzieren den Codeaufwand 
+      -- reduzieren den Codeaufwand 
       -	machen den Code lesbarer
     -	Effizienz: 
-      -	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
-    -	Einfache und übersichtliche Codes
+      --	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
+      --	Einfache und übersichtliche Codes
 8. Fazit
   -	Mit Dynamischen, geordnete und veränderbare Daten arbeiten
   -	Flexibilität und einfache Handhabung
