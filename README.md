@@ -93,7 +93,7 @@ Auch Tupel stellen eine geordnete Sammlung von Elementen da. Ein Tupel besteht a
   •	Unveränderlichkeit und Kombination verschiedener Datentypen -> ideal für viele Anwendungen
   •	Einfache Möglichkeit, Daten zu gruppieren und sicherzustellen, dass diese Daten nicht versehentlich verändert werden
 
-
+---
 set:
 
 
@@ -121,7 +121,7 @@ Eine Menge ist eine ungeordnete Sammlung ohne doppelte Elemente.
   •	Schnelle Mitgliedschaftsabfragen: sehr schnelle Möglichkeit, zu überprüfen, ob ein Element vorhanden ist
   •	Mengenoperationen: s.o.
 
-
+---
 dictionary:
 
 
