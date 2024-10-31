@@ -4,61 +4,61 @@ List:
 
 
 1.	Merkmale
--	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
+  -	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
   -	Ordnung:
     -	feste Reihenfolge
     -	auf Element über seinen Index zugreifen (Index beginnt bei 0)
-  •	Duplikate erlaubt: 
-    o	identische Elemente -> ideal, wenn Sammlung von Werten, die sich wiederholen können
-  •	Vielseitige Datentypen: 
-    o	z. B. Zahlen, Strings, andere Listen flexibel
+  -	Duplikate erlaubt: 
+    -	identische Elemente -> ideal, wenn Sammlung von Werten, die sich wiederholen können
+  -	Vielseitige Datentypen: 
+    -	z. B. Zahlen, Strings, andere Listen flexibel
 3. Wann solltest du Listen verwenden?
-  •	Dynamische Sammlungen: 
-    o	Ideal bei häufigen Änderungen (z. B. Hinzufügen, Entfernen oder Modifizieren von Elementen)
-    o	eine einfache Möglichkeit, mit variablen Datenmengen zu arbeiten
-  •	Zugriff auf Elemente (Index): 
-    o	Schneller Zugriff über den Index der Werte
-  •	Feste Reihenfolge
-  •	Häufige Iterationen (Durchlaufen): 
-    o	Häufige Iterationen einer Sammlung von Elementen (z. B. um sie anzuzeigen oder zu verarbeiten)-> aufgrund ihrer einfachen Syntax und Flexibilität besonders geeignet
+  -	Dynamische Sammlungen: 
+    -	Ideal bei häufigen Änderungen (z. B. Hinzufügen, Entfernen oder Modifizieren von Elementen)
+    -	eine einfache Möglichkeit, mit variablen Datenmengen zu arbeiten
+  -	Zugriff auf Elemente (Index): 
+    -	Schneller Zugriff über den Index der Werte
+  -	Feste Reihenfolge
+  -	Häufige Iterationen (Durchlaufen): 
+    -	Häufige Iterationen einer Sammlung von Elementen (z. B. um sie anzuzeigen oder zu verarbeiten)-> aufgrund ihrer einfachen Syntax und Flexibilität besonders geeignet
 4. Besonderheiten der Modellierung
-  •	Erstellung: eckige Klammern
-  •	Zugriff auf Elemente: Index
-  •	Hinzufügen von Elementen: 
-    o	append(), um ein Element am Ende der Liste hinzuzufügen
-    o	insert(i,x), um ein Element an einer bestimmten Stelle hinzuzufügen
-  •	Entfernen von Elementen:
-    o	remove(), um ein spezifisches Element zu entfernen
-    o	pop(), um das letzte Element zu entfernen
-  •	min(), max(), sum()
-  •	Das erste Element x finden: index(x) ->Es gibt eine Fehlermeldung, wenn solch ein Element nicht existiert.
-  •	Anzahl von x: count(x)
-  •	Sortieren und Umkehren: 
-    o	sort(), um die Elemente der Liste im selben Exemplar zu sortieren
-    o	reverse(), um die Reihenfolge der Listenelemente im selben Exemplar umzukehren
-  •	Slicing: [start:end] ; [start:end:step] ->start inklusive, end exklusive
+  -	Erstellung: eckige Klammern
+  -	Zugriff auf Elemente: Index
+  -	Hinzufügen von Elementen: 
+    -	append(), um ein Element am Ende der Liste hinzuzufügen
+    -	insert(i,x), um ein Element an einer bestimmten Stelle hinzuzufügen
+  -	Entfernen von Elementen:
+    -	remove(), um ein spezifisches Element zu entfernen
+    -	pop(), um das letzte Element zu entfernen
+  -	min(), max(), sum()
+  -	Das erste Element x finden: index(x) ->Es gibt eine Fehlermeldung, wenn solch ein Element nicht existiert.
+  -	Anzahl von x: count(x)
+  -	Sortieren und Umkehren: 
+    -	sort(), um die Elemente der Liste im selben Exemplar zu sortieren
+    -	reverse(), um die Reihenfolge der Listenelemente im selben Exemplar umzukehren
+  -	Slicing: [start:end] ; [start:end:step] ->start inklusive, end exklusive
 5. Anwendungsbeispiele
-  •	To-Do-Listen
-  •	Speichern von Benutzereingaben
-  •	Kollektionsverwaltung
-    o	Liste von Produkten im Einkaufswagen
+  -	To-Do-Listen
+  -	Speichern von Benutzereingaben
+  -	Kollektionsverwaltung
+    -	Liste von Produkten im Einkaufswagen
 6. Benutzung von Listen…
-  •	Als Stack (Stapel):
-  •	Als Queue (Schlange):
+  -	Als Stack (Stapel):
+  -	Als Queue (Schlange):
 7. List Comprehension
-  •	Funktion
-  •	Helfen, Listen auf eine elegante und effiziente Weise zu erstellen und zu transformieren
-  •	Vorteile von List Comprehensions
-    o	Kompaktheit:
-       reduzieren den Codeaufwand 
-      	machen den Code lesbarer
-    o	Effizienz: 
-      	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
-    o	Einfache und übersichtliche Codes
+  -	Funktion
+  -	Helfen, Listen auf eine elegante und effiziente Weise zu erstellen und zu transformieren
+  -	Vorteile von List Comprehensions
+    -	Kompaktheit:
+      - reduzieren den Codeaufwand 
+      -	machen den Code lesbarer
+    -	Effizienz: 
+      -	List Comprehensions oft schneller als herkömmliche Schleifen -> eine einzige Zeile
+    -	Einfache und übersichtliche Codes
 8. Fazit
-  •	Mit Dynamischen, geordnete und veränderbare Daten arbeiten
-  •	Flexibilität und einfache Handhabung
-  •	Bei großen Datenmengen oder häufige Änderungen an den Anfangs- oder Mittelpositionen der Liste nimmt die Effizienz ab
+  -	Mit Dynamischen, geordnete und veränderbare Daten arbeiten
+  -	Flexibilität und einfache Handhabung
+  -	Bei großen Datenmengen oder häufige Änderungen an den Anfangs- oder Mittelpositionen der Liste nimmt die Effizienz ab
 
 ---
 tuple:
