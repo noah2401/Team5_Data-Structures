@@ -1,0 +1,71 @@
+  #basics:
+     #Erstellung
+meine_liste = [1, 2, 3, 'Python', True]
+
+#Zugriff auf Elemente
+print(meine_liste[0])  # Gibt 1 aus
+
+#Hinzufügen von Elementen
+meine_liste.append(4)
+meine_liste.insert(1,0) #[1,0,2,3,'Python', True]
+
+#Entfernen von Elementen
+meine_liste.remove('Python')
+letztes_element = meine_liste.pop()
+
+#Das erste Element x finden
+meine_liste.index(0) #Gibt 1 aus
+
+#Anzahl von x
+meine_liste.count(1) #Gibt 1 aus
+
+#Sortieren und umkehren
+meine_liste.sort()  # Sortiert die Liste
+meine_liste.reverse()  # Kehrt die Reihenfolge um
+
+#min(), max(), sum()
+min(meine_liste)
+max(meine_liste)
+sum(meine_liste)
+
+
+  #deeper functions:
+      #Slicing
+numbers = [1, 2, 3, 4, 5, 6, 7]
+numbers[2:6]      #Gibt [3, 4, 5, 6] aus
+numbers[::2]      #Gibt [1, 3, 5, 7] aus
+numbers[1::3]     #Gibt [2, 5] aus
+numbers[len(numbers):] = [8, 9]
+numbers     #Gibt [1, 2, 3, 4, 5, 6, 7, 8, 9] aus
+numbers[:0] = [0, 1]
+numbers     #Gibt [0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9] aus
+numbers[2:2] = [111]
+numbers     #Gibt [0, 1, 111, 1, 2, 3, 4, 5, 6, 7, 8, 9] aus
+numbers[4:7] = [22, 33, 44]
+numbers     #Gibt [0, 1, 111, 1, 22, 33, 44, 5, 6, 7, 8, 9] aus
+
+
+#List Comprehensions
+#Die allgemeine Syntax einer List Comprehension lautet:
+neue_liste = [ausdruck for element in iterable if bedingung]
+
+#ausdruck: Der Wert oder die Transformation, die in die neue Liste aufgenommen wird.
+#element: Das aktuelle Element aus der Iterable, die durchlaufen wird.
+#iterable: Die ursprüngliche Liste oder eine andere Datenstruktur, die durchlaufen wird.
+#bedingung: (Optional) Eine Bedingung, die angibt, ob das Element in die neue Liste aufgenommen werden soll.
+
+
+#1. Einfache List Comprehension: Quadratzahlen
+zahlen = [1, 2, 3, 4, 5]
+quadrate = [x**2 for x in zahlen]
+print(quadrate)  # Ausgabe: [1, 4, 9, 16, 25]
+
+#2. List Comprehension mit einer Bedingung: nur die geraden Zahlen quadrieren
+zahlen = [1, 2, 3, 4, 5]
+gerade_quadrate = [x**2 for x in zahlen if x % 2 == 0]
+print(gerade_quadrate)  # Ausgabe: [4, 16]
+
+# Erstellen einer 3x3 verschachtelten Liste mit List Comprehensions
+verschachtelte_liste = [[j for j in range(1, 4)] for i in range(3)]
+
+print(verschachtelte_liste)  # Gibt [[1, 2, 3], [1, 2, 3], [1, 2, 3]] aus
