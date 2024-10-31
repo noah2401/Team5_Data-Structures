@@ -1,0 +1,31 @@
+  #basics:
+t = 12345, 54321, 'Hallo!'
+t[0]    #Gibt 12345 aus
+t    #Gibt (12345, 54321, 'Hallo!') aus
+
+# Tupel können verschachtelt werden:
+u = t, (1, 2, 3, 4, 5)
+u     #Gibt ((12345, 54321, 'Hallo!'), (1, 2, 3, 4, 5)) aus
+
+# Tupel sind unveränderlich:
+t[0] = 88888   #Fehlermeldung: TypeError: 'tuple' object does not support item assignment
+
+# aber sie können veränderliche Objekte enthalten:
+v = ([1, 2, 3], [3, 2, 1])
+v     #Gibt ([1, 2, 3], [3, 2, 1]) aus
+
+#Ausgegebene Tupel sind immer von Klammern umgeben!
+
+
+#Tupel, die 0 oder 1 Element haben:
+empty = ()
+singleton = 'Hallo',    # <-- das angehängte Komma nicht vergessen
+len(empty)     #Gibt 0 aus
+len(singleton)       #Gibt 1 aus
+singleton     #Gibt ('Hallo',) aus
+
+#Tuple packing:
+t = 12345, 54321, 'Hallo!'
+
+#Tuple unpacking:
+x, y, z = t
