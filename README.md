@@ -4,10 +4,10 @@ List:
 
 
 1.	Merkmale
-•	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
-  •	Ordnung:
-    o	feste Reihenfolge
-    o	auf Element über seinen Index zugreifen (Index beginnt bei 0)
+-	Veränderbarkeit (Mutable): Listen können nach ihrer Erstellung verändert werden.
+  -	Ordnung:
+    -	feste Reihenfolge
+    -	auf Element über seinen Index zugreifen (Index beginnt bei 0)
   •	Duplikate erlaubt: 
     o	identische Elemente -> ideal, wenn Sammlung von Werten, die sich wiederholen können
   •	Vielseitige Datentypen: 
