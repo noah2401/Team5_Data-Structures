@@ -1,5 +1,5 @@
 Hier findest du eine kurze Übersicht über die vorgestellten Data Structures:
-
+---
 List:
 
 
